@@ -85,6 +85,24 @@
   </dependency>
 
   </dependencies>
+  
+   <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.releases/</url>
+        </repository>
+        <repository>
+            <id>nexus-snapshots</id>
+            <name>nexus</name>
+            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.snapshots/</url>
+        </repository>
+        <repository>
+            <id>nexus-milestones</id>
+            <name>nexus</name>
+            <url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.milestones/</url>
+        </repository>
+    </repositories>
 
   <build>
     <finalName>bookstore</finalName>
